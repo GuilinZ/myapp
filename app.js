@@ -6,7 +6,7 @@ var app = express();
 var nuts = Nuts({
     // GitHub configuration
     repository: "GuilinZ/leecode",
-    token: "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"
+    token: "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"
 });
 
 app.use('/myapp', nuts.router);
